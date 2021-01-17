@@ -1,0 +1,31 @@
+{
+  "name": "nodejs_course",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [
+    "tree",
+    "cli"
+  ],
+  "main": "tree.js",
+  "bin": {
+    "tree": "./bin/tree.js"
+  },
+  "scripts": {
+  },
+  "files": [
+    "bin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanholler/mihnevich-artiom-otus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanholler/mihnevich-artiom-otus/issues"
+  },
+  "homepage": "https://github.com/vanholler/mihnevich-artiom-otus#readme",
+  "dependencies": {
+    "commander": "^6.2.1"
+  }
+}
