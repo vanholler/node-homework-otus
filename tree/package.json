@@ -11,10 +11,12 @@
     "tree": "./bin/tree.js"
   },
   "scripts": {
+   "start": "node --max-old-space-size=50 index.js"
   },
   "files": [
     "bin"
   ],
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vanholler/mihnevich-artiom-otus.git"
