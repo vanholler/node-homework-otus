@@ -1,0 +1,11 @@
+{
+  "name": "streams",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --max-old-space-size=50 index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
