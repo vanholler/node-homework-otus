@@ -28,10 +28,6 @@ function print( filename, path, currentDepth, precedingSymbols, options, isLast)
     line.push(isLast ? SYMBOLS.LAST_BRANCH : SYMBOLS.BRANCH);
   }
   line.push(filename);
-
-  if (isDir && options.trailingSlash) {
-    line.push('/');
-  }
   lines.push(line.join(''));
 
   if (isFile) {
@@ -39,9 +35,6 @@ function print( filename, path, currentDepth, precedingSymbols, options, isLast)
   }
 
   let contents = fs.readdirSync(path);
-  if (options.reverse) {
-    contents.reverse();
-  }
 
   contents.forEach((content, index) => {
     const isCurrentLast = index === contents.length - 1;
@@ -71,7 +64,8 @@ function tree(path, options) {
     0,
     '',
     combinedOptions,
+    true
   ).join('\n');
 }
 
-module.exports = tree;
+const getTree = module.exports = {tree, print}
