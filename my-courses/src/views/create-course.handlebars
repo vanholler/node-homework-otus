@@ -1,0 +1,44 @@
+<section class="hero is-success">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        Create Course
+      </h1>
+      <h1 class="subtitle">
+        Teach with My Courses
+      </h1>
+    </div>
+  </div>
+</section>
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-half is-offset-one-quarter">
+          <form class="box" method="post">
+            {{#if message}}
+            <p class="has-text-danger mb-3">
+              <span class="icon">
+                <i class="fa fa-exclamation-triangle"></i>
+              </span>
+              {{message}}
+            </p>
+            {{/if}}
+            <div class="field">
+              <div class="control has-icons-left">
+                <input name="title" type="text" class="input" placeholder="Title" required>
+                <span class="icon is-small is-left">
+                  <i class="fa fa-heading"></i>
+                </span>
+              </div>
+            </div>
+            <div class="field">
+              <button class="button is-success">
+                Create Course
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+</section>

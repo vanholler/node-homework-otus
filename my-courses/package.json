@@ -1,0 +1,43 @@
+{
+  "name": "my-courses",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "populate-db": "node src/fixtures create",
+    "clear-db": "node src/fixtures delete"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "jest": "^25.3.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.3",
+    "prettier": "^1.19.1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "bulma": "^0.8.2",
+    "colors": "^1.4.0",
+    "connect-mongo": "^3.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "express-rate-limit": "^5.1.3",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.6.0",
+    "helmet": "^3.22.0",
+    "mongoose": "^5.9.14",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "yargs": "^15.3.1"
+  }
+}

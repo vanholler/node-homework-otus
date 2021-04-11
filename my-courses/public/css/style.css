@@ -1,0 +1,11 @@
+.split-on-newlines {
+  white-space: pre-wrap;
+}
+
+.tabs-content > * {
+  display: none;
+}
+
+.tabs-content .is-active {
+  display: block;
+}
