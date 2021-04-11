@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
-    "populate-db": "node src/fixtures create",
+    "create-db": "node src/fixtures create",
     "clear-db": "node src/fixtures delete"
   },
   "author": "",
