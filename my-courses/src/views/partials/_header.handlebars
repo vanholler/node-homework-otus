@@ -1,0 +1,80 @@
+<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="/">
+      <span class="icon has-text-primary">
+        <i class="fas fa-graduation-cap"></i>
+      </span>
+    </a>
+
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbar" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" href="/courses">
+        Catalog
+      </a>
+      {{#if user}}
+      <a class="navbar-item" href="/my-courses">
+        My Courses
+      </a>
+      <a class="navbar-item" href="/courses/create">
+        Teach
+      </a>
+      {{/if}}
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          {{#if user}}
+          <a class="button is-light" href="/auth/logout">
+            Log out
+          </a>
+          {{else}}
+          <a class="button is-primary" href="/auth">
+            <strong>Sign up</strong>
+          </a>
+          <a class="button is-light" onclick="show('login')">
+            Log in
+          </a>
+          {{/if}}
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div id="login" class="modal">
+  <div class="modal-background"></div>
+  <div class="modal-content">
+    <form method="post" action="/auth/login" class="box">
+      <div class="field">
+        <div class="control has-icons-left">
+          <input type="email" class="input" name="email" placeholder="E-mail" required>
+          <span class="icon is-small is-left">
+            <i class="fa fa-envelope"></i>
+          </span>
+        </div>
+      </div>
+      <div class="field">
+        <div class="control has-icons-left">
+          <input type="password" class="input" name="password" placeholder="Password" required>
+          <span class="icon is-small is-left">
+            <i class="fa fa-lock"></i>
+          </span>
+        </div>
+      </div>
+      <div class="field">
+        <button class="button is-success">
+          Login
+        </button>
+      </div>
+    </form>
+  </div>
+  <button class="modal-close is-large" aria-label="close" onclick="hide('login')"></button>
+</div>

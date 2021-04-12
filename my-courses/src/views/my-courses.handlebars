@@ -1,0 +1,56 @@
+<section class="section">
+  <div class="container">
+    <h1 class="title">
+      {{user.name}}
+    </h1>
+    <div class="columns">
+      <div class="column is-three-quarters">
+        <div class="tabs-container">
+          <div class="tabs is-medium is-boxed">
+            <ul>
+              <li class="is-active" onclick="switchTab(event)"><a>My Courses</a></li>
+              <li onclick="switchTab(event)"><a>Teaching</a></li>
+            </ul>
+          </div>
+          <div class="tabs-content">
+            <div class="is-active">
+              {{#each user.courses}}
+              <article class="media">
+                <div class="media-content">
+                  <div class="content">
+                    <p>
+                      <strong>{{title}}</strong>
+                      <br>
+                      {{description}}
+                    </p>
+                  </div>
+                </div>
+                <div class="media-right">
+                  <a class="button is-success" href="/courses/{{id}}">Learn</a>
+                </div>
+              </article>
+              {{/each}}
+            </div>
+            <div>
+              {{#each user.ownCourses}}
+              <article class="media">
+                <div class="media-content">
+                  <div class="content">
+                    <p>
+                      <strong>{{title}}</strong>
+                      <br>
+                      {{description}}
+                    </p>
+                  </div>
+                </div>
+                <div class="media-right">
+                  <a class="button is-info" href="/courses/{{id}}/edit">Edit</a>
+                </div>
+              </article>
+              {{/each}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
