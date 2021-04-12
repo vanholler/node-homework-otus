@@ -1,0 +1,179 @@
+[
+  {
+    "_id": "5ec617e97e874ea493666ebc",
+    "title": "Array Lists",
+    "course": "5dacb9f73266589f3a910da1",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4",
+    "comments": [
+      {
+        "autor": "Ayrton Sweet",
+        "text": "Sorry, I can't hangout. My uncle's cousin's sister in law's best friend's insurance agent's roommate's pet goldfish died. Maybe next time."
+      },
+      {
+        "autor": "Jadine Caldwell",
+        "text": "I think I'm crying. It's that magical."
+      }
+    ],
+    "resources": [
+      {
+        "title": "project_files.zip",
+        "link": "https://www.google.com/"
+      },
+      {
+        "title": "Some Article",
+        "link": "http://callbackhell.ru/"
+      }
+    ]
+  },
+  {
+    "_id": "5dab698f8af6399b811105dc",
+    "title": "Linked Lists",
+    "course": "5dacb9f73266589f3a910da1",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Skip Lists",
+    "course": "5dacb9f73266589f3a910da1",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Circular Arrays",
+    "course": "5dacb9f73266589f3a910da1",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Abstract Data Types",
+    "course": "5dacb9f73266589f3a910da1",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Deques",
+    "course": "5dacb9f73266589f3a910da1",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Queues",
+    "course": "5dacb9f73266589f3a910da1",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Stacks",
+    "course": "5dacb9f73266589f3a910da1",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "And the Iterators Gonna Iterate-ate-ate",
+    "course": "5dacb9f73266589f3a910da1",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "A Journey of a Thousand Miles. . .",
+    "course": "5dacbdd3a435599f79b6a610",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Hidden Messages in the Replication Origin",
+    "course": "5dacbdd3a435599f79b6a610",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Some Hidden Messages are More Surprising than Others",
+    "course": "5dacbdd3a435599f79b6a610",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "An Explosion of Hidden Messages",
+    "course": "5dacbdd3a435599f79b6a610",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "The Simplest Way to Replicate DNA",
+    "course": "5dacbdd3a435599f79b6a610",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Asymmetry of Replication",
+    "course": "5dacbdd3a435599f79b6a610",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Peculiar Statistics of the Forward and Reverse Half-Strands",
+    "course": "5dacbdd3a435599f79b6a610",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Some Hidden Messages are More Elusive than Others",
+    "course": "5dacbdd3a435599f79b6a610",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "A Final Attempt at Finding DnaA Boxes in E. coli",
+    "course": "5dacbdd3a435599f79b6a610",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Hello, world!",
+    "course": "5dab698f8af6399b811105dc",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Java to Kotlin conversion",
+    "course": "5dab698f8af6399b811105dc",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Named arguments",
+    "course": "5dab698f8af6399b811105dc",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Default arguments",
+    "course": "5dab698f8af6399b811105dc",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Lambdas",
+    "course": "5dab698f8af6399b811105dc",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Strings",
+    "course": "5dab698f8af6399b811105dc",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Data classes",
+    "course": "5dab698f8af6399b811105dc",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Nullable types",
+    "course": "5dab698f8af6399b811105dc",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Smart casts",
+    "course": "5dab698f8af6399b811105dc",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Extension functions",
+    "course": "5dab698f8af6399b811105dc",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Object expressions",
+    "course": "5dab698f8af6399b811105dc",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "SAM conversions",
+    "course": "5dab698f8af6399b811105dc",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Extension functions on collections",
+    "course": "5dab698f8af6399b811105dc",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  }
+]

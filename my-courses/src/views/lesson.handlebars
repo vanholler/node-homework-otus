@@ -1,0 +1,82 @@
+<section class="hero is-info">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        {{course.title}}
+      </h1>
+      <h1 class="subtitle">
+        <span class="icon">
+
+          <a href="/courses/{{course.id}}">
+            <i class="fas fa-arrow-left"></i>
+          </a>
+        </span>
+        {{lesson.title}}
+      </h1>
+    </div>
+  </div>
+</section>
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-three-fifths">
+          <video width="100%" controls autoplay src="{{video}}">Lesson video</video>
+        </div>
+        <div class="column content">
+
+          <p>{{description}}</p>
+          {{#if lesson.resources}}
+          <h1 class="title is-5">Resourses</h1>
+          <ul>
+            {{#each lesson.resources}}
+            <li><a href="{{link}}" target="_blank">{{title}}</a></li>
+            {{/each}}
+          </ul>
+          {{/if}}
+
+        </div>
+      </div>
+      <div class="column">
+        <h1 class="title is-5">Comments</h1>
+        <div class="media">
+          <figure class="media-left">
+            <p class="image is-64x64 is-info">
+              <img src="https://bulma.io/images/placeholders/128x128.png" alt="">
+            </p>
+          </figure>
+          <div class="media-content">
+            <div>
+              <div class="field">
+                <div class="control">
+                  <textarea class="textarea" id="comment-text" placeholder="Add a comment..." rows="2"></textarea>
+                </div>
+              </div>
+              <div class="control">
+                <button class="button is-success" onclick="addComment()">Leave a comment</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        {{#each lesson.comments}}
+        <div class="media">
+          <figure class="media-left">
+            <p class="image is-64x64 is-info">
+              <img src="https://bulma.io/images/placeholders/128x128.png" alt="">
+            </p>
+          </figure>
+          <div class="media-content">
+            <div>
+              <p>
+                <strong>{{author}}</strong> <small>31m</small>
+                <br>
+                {{text}}
+              </p>
+            </div>
+          </div>
+        </div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,50 @@
+<section class="hero is-primary">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        My Courses
+      </h1>
+      <h2 class="subtitle">
+        Build skills with courses, certificates, and degrees online from world-class universities and companies
+      </h2>
+    </div>
+  </div>
+</section>
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <div class="tile is-ancestor">
+        <div class="tile tile is-parent is-vertical is-8">
+          {{#each courses}}
+          <a class="tile is-child box" href="/courses/{{id}}">
+            <h4 class="title is-4">{{title}}</h4>
+            <p>{{description}}</p>
+          </a>
+          {{/each}}
+          <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+            <a href="?page={{pagination.prev.page}}" class="pagination-previous" {{#unless pagination.prev}} disabled
+              {{/unless}}>Previous</a>
+            <a href="?page={{pagination.next.page}}" class="pagination-next" {{#unless pagination.next}} disabled
+              {{/unless}}>Next</a>
+          </nav>
+        </div>
+        <div class="tile is-parent">
+          <div class="tile is-child">
+            <div class="menu">
+              <p class="menu-label">
+                Subjects
+              </p>
+              <ul class="menu-list">
+                <li><a>Mathematics</a></li>
+                <li><a>Statistics</a></li>
+                <li><a>Computer science</a></li>
+                <li><a>Natural science</a></li>
+                <li><a>Social science</a></li>
+                <li><a>Humanities</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>

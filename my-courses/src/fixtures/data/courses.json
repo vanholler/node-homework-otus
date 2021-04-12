@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "5dacb9f73266589f3a910da1",
+    "title": "Data Structures",
+    "author": "5edcf98e4287c23ade7475a9",
+    "description": "This interactive textbook was written with the intention of teaching Computer Science students about various data structures as well as the applications in which each data structure would be appropriate to use."
+  },
+  {
+    "_id": "5dacbdd3a435599f79b6a610",
+    "title": "Bioinformatics Algorithms",
+    "author": "5edcf98e4287c23ade7475a9",
+    "description": "Explore the power of computing in modern biology and apply existing software tools to find recurring biological motifs within genes that are responsible for helping Mycobacterium tuberculosis go \"dormant\" within a host for many years before causing an active infection. Interactive preview of Bioinformatics Algorithms: An Active Learning Approach."
+  },
+  {
+    "_id": "5dab698f8af6399b811105dc",
+    "title": "Kotlin",
+    "author": "5edcf98e4287c23ade7475a9",
+    "description": "Kotlin is the modern statically typed programming language for the JVM, Android and the browser.\nIt's concise, safe and versatile. Kotlin code can be compiled into JVM bytecode, JavaScript or directly to the native machine code."
+  }
+]
